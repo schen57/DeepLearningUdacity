@@ -1,0 +1,32 @@
+type: "MARKDOWN_NOTE"
+folder: "0932d1cea7b29814a36c"
+title: "Deep Learning"
+content: '''
+  # Deep Learning 
+  ### _Lesson 1_
+  
+  Week1:
+  1. Regression Models
+  2. Intro to Neurl networks, perceptrons, train networks)
+  3. First neural networks with only Numpy
+  
+  Perceptron is a type of linear classifier (a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector). 
+  
+  Perceptron is an algorithm for learning a binary classifier: a function that maps its input x (a rela valued vector) to an output value of f(x). Logistic regression isn't a perceptron.
+  
+  Key commands for managing environments:
+  1. source deactivate
+  2. source activate my_env 
+  3. conda create -n py3 python=3
+  4. conda env export > environment.yaml
+  5. conda env create -f environment.yaml
+  6. conda env remove -n env_name
+  
+  Running a notebook server locally:
+  jupyter notebook 
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-08-05T17:38:10.951Z"
+updatedAt: "2017-08-06T23:20:34.248Z"
